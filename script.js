@@ -18,6 +18,4 @@ const validatePalin = () => {
   } else {
     result.innerHTML = `${text} <br>${reverseText} <br>  não é um palindromo`;
   }
-
-  console.log(text.value);
 };
